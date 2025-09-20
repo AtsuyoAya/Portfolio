@@ -1,8 +1,13 @@
+import "./WorkSkills.css"
+
 function WorkSkills({ }) {
 
     return (
-        <div>
-            HTML, C++, ReactJS
+        <div className={"WorkSkills"}>
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>C++</div>
+            <div>ReactJS</div>
         </div>
     )
 }

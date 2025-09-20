@@ -3,10 +3,9 @@ function WorkContact({}) {
     return(
 
         <div>
-
-        Email : WilliamKientz34@Gmail.com
-
-        Tel : 06 99 36 37 65
+            <h1>Contact</h1>
+            <div>Email : WilliamKientz34@Gmail.com</div>
+            <div>Tel : 06 99 36 37 65</div>
 
 
 

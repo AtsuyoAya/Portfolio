@@ -12,13 +12,12 @@ import WorkProject from './component/WorkProject/WorkProject'
 import WorkContact from './component/Contact/WorkContact'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div>
+    <div className={"App"}>
 
 
-      <TopBar />
+      {/* <TopBar /> */}
 
       <Introduction />
 

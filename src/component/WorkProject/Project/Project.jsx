@@ -1,12 +1,17 @@
-function Project({ type, title, description, img }) {
+import "./Project.css"
+
+function Project({ className,type, title, description, img }) {
 
     return (
-        <div>
-            
-            <h2> {type} </h2>
-            <h1> {title} </h1>
-            <p> {description} </p>
-            <img src={img} />
+        <div className={"Project " + className}>
+            <div className={"content"}>
+                <div className="type"> {type} </div>
+                <div className="title"> {title} </div>
+                <div className="description"> {description} </div>
+            </div>
+            <div className={"image"} >
+                <img src={img} />
+            </div>
         </div>
     )
 }
