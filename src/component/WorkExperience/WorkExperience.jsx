@@ -7,7 +7,7 @@ function WorkExperience({ }) {
     return (
         <div>
 
-            Work Experience
+            <h2>Work Experience</h2>
 
             <WorkCase title={"Titre 1"} description={"description 1"} img={placeholder} />
             <WorkCase title={"Titre 2"} description={"description 2"} img={placeholder} />

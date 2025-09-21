@@ -29,9 +29,10 @@
 }
 
 .Project .content .type{
-    color: #9757d3;
+    color: #515151;
     font-size: 16px;
     font-weight: 600;
+    font-family: "Inter";
     
     margin-left: 20px;
 
@@ -44,9 +45,11 @@
 }
 
 .Project .content .title{
-    color: #CCD6F6;
-    font-size: 34px;
-    font-weight: 600;    
+    color: #fbfbfb;
+    font-size: 18px;
+    font-weight: 600; 
+    font-family: "Rubik";  
+    margin-bottom: 15px ; 
 }
 .Project.left .content .title{
     margin-left: var(--title-offset);
@@ -56,29 +59,23 @@
 }
 
 .Project .content .description{
-    color: #CCD6F6;
+    color: #515151;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: normal;
+    
 
 
-    background: #683b9350;
-    padding: 10px;
-    padding-left: 70px;
+    background: #20202265;
+
 
     border-radius: 10px;
-
-
-
-}
-.Project.left .content .description{
-
-    padding-left: var(--description-padding-offset);
+    padding: 20px;
+    text-align: center;
 
 }
 
-.Project.right .content .description{
-    padding-right: var(--description-padding-offset);
-    text-align: left;
+.Project .content .description > *{
+    margin: auto;
 }
 
 .Project .image{
@@ -86,7 +83,7 @@
 
     margin-left: calc(var(--image-offset) * -1);
     flex-grow: 1;
-    background: #1E0F1C ;
+    background: #5151511e ;
     padding: 2px;
     border-radius: 10px;
 
@@ -109,4 +106,13 @@
     
     object-fit: contain;
     border-radius: 20px;
+}
+
+.Project .Line{
+    background: #515151;
+    width: 24px;
+    height: 2px;
+    align-self: center;
+    margin-right: 15px;
+
 }

@@ -8,12 +8,12 @@ function WorkProject({ }) {
 
         <div className={"WorkProject"}>
 
-            <h1>Work Project</h1>
+            <h2>projets</h2>
 
             <Project
                 className="left"
                 type={"Projet Perso"}
-                title={"titre1"}
+                title={"Portfolio"}
                 description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere consequat ultrices. Maecenas efficitur ligula id dui tristique finibus. Aenean non lorem ex. Nunc sodales nibh et bibendum hendrerit. Suspendisse et fermentum mauris. Praesent rutrum id leo eu molestie. Nulla porttitor sapien vel nisi hendrerit imperdiet quis vitae leo. Nulla vehicula eget nunc a vestibulum."}
                 img={placeholder}
              />

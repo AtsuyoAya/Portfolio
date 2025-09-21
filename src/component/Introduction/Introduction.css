@@ -1,4 +1,11 @@
 .Introduction b {
     color: var(--secondary-text-color);
+    font-weight: normal;
+    
+}
 
+.Introduction{
+
+    margin-right: 66%;
+    
 }
