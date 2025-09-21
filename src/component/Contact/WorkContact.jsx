@@ -1,11 +1,31 @@
-function WorkContact({}) {
+import "./WorkContact.css"
+function WorkContact({ }) {
+    const ImageContact = [
+        {
+            img: "/images/Email.png",
+            name: "WilliamKientz34@Gmail.com"
+        },
+        {
+            img: "/images/Tel.png",
+            name: "06 99 36 37 65"
+        }
+    ]
 
-    return(
+    return (
+        <div className={"WorkContact"}>
+            <h2>Contact</h2>
+            {ImageContact.map((icone, index) => (
+                <div className="Icones" key={index}>
+                    {icone.img && (
+                        <img src={icone.img} />
 
-        <div>
-            <h2>Contact :</h2>
-            <div>Email : WilliamKientz34@Gmail.com</div>
-            <div>Tel : 06 99 36 37 65</div>
+                    )}
+                    {icone.name}
+                </div>
+
+
+
+            ))}
 
 
 

@@ -1,6 +1,6 @@
 .Project {
     width: 100%;
-    /* background: orange; */
+
 
 
     display: flex;
@@ -12,57 +12,61 @@
 }
 
 
-.Project.right{
+.Project.right {
     flex-direction: row-reverse;
     text-align: right;
 }
 
-.Project .content{
+.Project .content {
     min-width: 50%;
     max-width: 50%;
 
-    
 
-    padding: 20px 0 ;
+
+    padding: 20px 0;
 
     z-index: 2;
 }
 
-.Project .content .type{
+.Project .content .type {
     color: #515151;
     font-size: 16px;
     font-weight: 600;
     font-family: "Inter";
-    
+
     margin-left: 20px;
 
 }
-.Project.left .content .type{
+
+.Project.left .content .type {
     margin-left: var(--title-offset);
 }
-.Project.right .content .type{
+
+.Project.right .content .type {
     margin-right: var(--title-offset);
 }
 
-.Project .content .title{
+.Project .content .title {
     color: #fbfbfb;
     font-size: 18px;
-    font-weight: 600; 
-    font-family: "Rubik";  
-    margin-bottom: 15px ; 
+    font-weight: 600;
+    font-family: "Rubik";
+    margin-bottom: 15px;
 }
-.Project.left .content .title{
+
+.Project.left .content .title {
     margin-left: var(--title-offset);
 }
-.Project.right .content .title{
+
+.Project.right .content .title {
     margin-right: var(--title-offset);
 }
 
-.Project .content .description{
+.Project .content .description {
     color: #515151;
     font-size: 16px;
     font-weight: normal;
-    
+
 
 
     background: #20202265;
@@ -74,16 +78,16 @@
 
 }
 
-.Project .content .description > *{
+.Project .content .description>* {
     margin: auto;
 }
 
-.Project .image{
+.Project .image {
 
 
     margin-left: calc(var(--image-offset) * -1);
     flex-grow: 1;
-    background: #5151511e ;
+    background: #5151511e;
     padding: 2px;
     border-radius: 10px;
 
@@ -92,7 +96,7 @@
     align-items: flex-end;
 }
 
-.Project.left .image{
+.Project.left .image {
     margin-left: calc(var(--image-offset) * -1);
 }
 
@@ -103,12 +107,12 @@
 .Project .image img {
     max-width: 98%;
     width: 98%;
-    
+
     object-fit: contain;
     border-radius: 20px;
 }
 
-.Project .Line{
+.Project .Line {
     background: #515151;
     width: 24px;
     height: 2px;

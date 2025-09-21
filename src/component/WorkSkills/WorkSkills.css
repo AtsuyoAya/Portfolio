@@ -1,10 +1,10 @@
-.WorkSkills{
+.WorkSkills {
     display: flex;
     flex-direction: column;
     font-weight: bold;
 }
 
-.Skill img{
+.Skill img {
     width: 36px;
     vertical-align: middle;
     margin-right: 10px;

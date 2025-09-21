@@ -1,40 +1,40 @@
 import "./WorkSkills.css"
 
 function WorkSkills({ }) {
-    const skills =[
+    const skills = [
         {
-         img: "/images/Html.png",   
-         name:"HTML"
+            img: "/images/Html.png",
+            name: "HTML"
         },
         {
             img: "/images/Js.png",
-            name:"ReactJS"
+            name: "ReactJS"
         },
         {
             img: "/images/css.png",
-            name:"CSS"
+            name: "CSS"
         },
         {
             img: "/images/C++.png",
-            name:"C++"
+            name: "C++"
         }
     ]
 
 
     return (
         <div className={"WorkSkills"}>
-        <h2>
-            compétences
-        </h2>
-        {skills.map((skill, index) => (
-            <div className="Skill" key={index}>
-            {skill.img && (
-                <img src={skill.img}/>
-            )}
-            {skill.name}
-            </div>
+            <h2>
+                compétences
+            </h2>
+            {skills.map((skill, index) => (
+                <div className="Skill" key={index}>
+                    {skill.img && (
+                        <img src={skill.img} />
+                    )}
+                    {skill.name}
+                </div>
 
-        ))} 
+            ))}
 
         </div>
     );

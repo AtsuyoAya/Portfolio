@@ -1,6 +1,6 @@
 import "./Project.css"
 
-function Project({ className,type, title, description, img }) {
+function Project({ className, type, title, description, img }) {
 
     return (
         <div className={"Project " + className}>
