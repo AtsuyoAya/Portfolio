@@ -19,13 +19,14 @@ function WorkProject({ }) {
                     <>
                         Le Portfolio que vous regardez en ce moment est l'un de mes projets personnels, grâce à ce projet j'ai pu apprendre les bases du HTML, CSS et ReactJS.
                         Je vous laisse le lien du GitHub pour que vous puissiez voir le code de mon portfolio.
-                        Si vous avez n'importe quelle question à propos de celui-ci, n'hésitez pas à me contacter .
+                        Si vous avez n'importe quelle question à propos de celui-ci, n'hésitez pas à me contacter.
                         <br />
                         {" "}
                         <a
                             href="https://github.com/AtsuyoAya/Portfolio"
                             target="_blank"
                             rel="noopener noreffer"
+                            style={{ color: "white", textDecoration: "none" }}
                         >
                             Voir sur GitHub
                         </a>
