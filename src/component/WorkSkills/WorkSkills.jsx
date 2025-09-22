@@ -7,12 +7,12 @@ function WorkSkills({ }) {
             name: "HTML"
         },
         {
-            img: "/images/Js.png",
-            name: "ReactJS"
-        },
-        {
             img: "/images/css.png",
             name: "CSS"
+        },
+        {
+            img: "/images/Js.png",
+            name: "ReactJS"
         },
         {
             img: "/images/C++.png",
